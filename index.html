@@ -16,6 +16,7 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
+      padding: 0 1rem;
     }
 
     .title {
@@ -25,43 +26,35 @@
     }
 
     .subtitle {
-      font-size: 7rem;
+      font-size: 6rem;
       text-align: center;
       color: #0E0E0E;
+      margin-bottom: 1rem;
     }
 
     .content {
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
       margin-top: 2rem;
-    }
-
-    .left-zone,
-    .right-zone {
-      width: 50%;
-      text-align: left;
-      padding: 0 5rem;
-    }
-
-    .right-zone {
-      padding-left: 1rem;
-      text-align: center;
     }
 
     .text {
       font-size: 1.5rem;
       color: #0E0E0E;
       margin-bottom: 1rem;
+      text-align: center;
     }
 
     .buttons {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       margin-top: 1rem;
     }
 
     .button {
-      margin: 0 0.5rem;
+      margin: 0.5rem;
     }
 
     .button a {
@@ -99,26 +92,24 @@
     <div class="title">Hello,</div>
     <div class="subtitle"><span class="bold">I'm Danil</span><span class="star">*</span></div>
     <div class="content">
-      <div class="left-zone">
-        <div class="text">Hi! I'm a Security Engineer with a passion for protecting digital assets. I specialize in blue team security strategies and technologies. Let's work together to safeguard your digital ecosystem effectively.</div>
+      <div class="text">
+        Hi! I'm Danil Koltsov, a Security Engineer with a passion for protecting digital assets. I specialize in blue team security strategies and technologies. Let's work together to safeguard your digital ecosystem effectively.
       </div>
-      <div class="right-zone">
-        <div class="text">If you want have chat or my resume<span class="star">**</span></div>
-        <div class="buttons">
-          <div class="button">
-            <a href="https://www.linkedin.com/in/danilk-cybersecurity/">Linkedin</a>
-          </div>
-          <div class="button">
-            <a href="https://instagram.com/__anthracite__?igshid=MmIzYWVlNDQ5Yg==">Instagram</a>
-          </div>
-          <div class="button">
-            <a href="https://t.me/anthraciteee">Telegram</a>
-          </div>
+      <div class="text">If you want my resume or have chat<span class="star">**</span>:</div>
+      <div class="buttons">
+        <div class="button">
+          <a href="https://www.linkedin.com/">Linkedin</a>
         </div>
-        <div class="additional-text">
-          <span class="star">*</span>A very passionate and competent person open to offers<br>
-          <span class="star">**</span>If you want my folio, ask me, I don't bite.
+        <div class="button">
+          <a href="https://www.instagram.com/">Instagram</a>
         </div>
+        <div class="button">
+          <a href="https://telegram.org/">Telegram</a>
+        </div>
+      </div>
+      <div class="additional-text">
+        <span class="star">*</span>A very passionate and competent person open to offers<br>
+        <span class="star">**</span>If you want my folio, ask me, I don't bite.
       </div>
     </div>
   </div>
